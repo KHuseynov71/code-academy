@@ -1,0 +1,465 @@
+.adres p {
+    font-family: visby cf, Sans-serif;
+    font-style: normal;
+    font-size: smaller;
+    padding-left: 50px;
+    padding-top: 3%;
+}
+
+.sosial-media {
+    justify-content: space-between;
+}
+
+.sosial-media-icon {
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 4%;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.logo {
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+.search {
+    background-color: #f9dd00;
+    margin-top: 1%;
+    width: 150px;
+    align-items: center;
+}
+
+.image img {
+    width: 90%;
+    margin: 0px 5%;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+#education {
+    margin-top: 8%;
+    margin-bottom: 10%;
+
+}
+
+.title h2 {
+    font-weight: 900;
+}
+
+.title h3 {
+    font-weight: 100;
+}
+
+.title::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    margin: 20% 0%;
+}
+
+.text {
+    padding-top: 15%;
+}
+
+.icon img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px 50px 50px 10px;
+
+}
+
+.education-item {
+    border: 1px solid grey;
+    transition: all 1s;
+    width: 112%;
+    height: 100%;
+}
+
+.marketing:hover {
+    background-color: hsl(270, 72%, 36%);
+    transform: scale(1.2, 1.2);
+    color: aliceblue;
+}
+
+.dizayn:hover {
+    background-color: orange;
+    transform: scale(1.2, 1.2);
+    color: aliceblue;
+}
+
+.proqramlisdirma:hover {
+    background-color: rgb(67, 178, 219);
+    transform: scale(1.2, 1.2);
+    color: aliceblue;
+}
+
+.sistem:hover {
+    background-color: rgb(72, 236, 13);
+    transform: scale(1.2, 1.2);
+    color: aliceblue;
+}
+
+.icons {
+    margin-top: 0px;
+}
+
+.cards {
+    margin-top: 8%;
+}
+
+#mainheader {
+    background-color: aliceblue;
+    position: fixed;
+    width: 100%;
+}
+
+.cards img {
+    width: 208px;
+    height: 280px;
+}
+
+.card-education {
+    margin-top: 5%;
+}
+
+#stat {
+    margin-top: 10%;
+}
+
+@media only screen and (max-width:768px) {
+    .card-education img {
+        display: none;
+        width: 100%;
+    }
+}
+
+.backgrund-img {
+    height: 600px;
+    background-image: url(../image/bacgrounf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title-image h2 {
+    color: white;
+    font-size: 21px;
+    font-style: normal;
+    line-height: 1.33em;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.figure {
+    margin-top: 10%;
+}
+
+.figure p {
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 70px;
+    letter-spacing: -1.2px;
+    color: white;
+    text-align: center;
+}
+
+.figure h4 {
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:991px) {
+    .backgrund-img {
+        width: 100%;
+        background-attachment: local;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .title-image h2 {
+        line-height: 1em;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .figure p {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -1px;
+    }
+
+    .backgrund-img {
+        width: 100%;
+        height: 100%;
+        background-attachment: local;
+    }
+}
+
+.commit-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 10%;
+}
+
+.commit-title span {
+    font-weight: bold;
+}
+
+.graduate-commit p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.commit-img img {
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+   
+}
+
+.commit-img {
+    align-items: center;
+}
+#partnyor {
+    margin-top: 10%;
+}
+
+.partnyor-title {
+    text-align: center;
+    position: relative;
+}
+
+.partnyor-title p {
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.partnyor-title h2 {
+    font-size: 60px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 5%;
+}
+
+.partnyor-title span {
+    font-size: 20px;
+}
+
+.partnyor-title span::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -10%;
+}
+
+.partnyor-logo {
+    margin-top: 18%;
+}
+
+.partnyor-logo img {
+    width: 100%;
+    height: 80%;
+}
+
+@media only screen and (max-width:991px) {
+    .partnyor-logo img {
+        width: 80%;
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .partnyor-logo img {
+        width: 40%;
+        height: 8s0px;
+        margin-left: 30%;
+    }
+
+    .logo-image {
+        margin-top: 10px;
+    }
+}
+
+.graduate-title {
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+.graduate-title h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0ps;
+}
+
+.graduate-title p {
+    font-size: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.graduate-title::after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: orange;
+    position: absolute;
+    margin-left: -3%;
+}
+
+.graduate-photo img {
+    width: 150px;
+    height: 150px;
+}
+
+.graduate-photo {
+    margin-top: 10%;
+}
+
+.graduets {
+    margin-top: 2%;
+}
+
+#connaction {
+    background-color: rgb(233, 231, 231);
+    margin-top: 7%;
+}
+
+.connaction-title {
+    padding-top: 30%;
+}
+
+.connaction-title h2 {
+    font-size: 50px;
+}
+
+.connaction-title span {
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.connaction-title p {
+    font-size: medium;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.connaction-forms {
+    margin-top: 10%;
+}
+
+.number {
+    position: absolute;
+    margin-top: 13%;
+    border-radius: 2%;
+}
+
+.inpute {
+    height: 60px;
+}
+
+#number {
+    width: 80px;
+    height: 60px;
+    border-radius: 3%;
+}
+
+.tele-number {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 19%;
+    width: 600px;
+}
+
+#specialtys {
+    margin-top: 2%;
+    position: absolute;
+    width: 420px;
+    height: 60px;
+}
+
+footer {
+    position: sticky;
+}
+
+#footer-top {
+    margin-top: 10%;
+}
+
+.academy h4 {
+    padding-left: 18%;
+    font-size: larger;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-top: 8%;
+}
+
+a {
+    color: darkgray;
+}
+
+.education-section {
+    padding: 0 20%;
+}
+
+.footer-mid-text {
+    background-color: rgb(233, 231, 231);
+    height: 100px;
+    text-align: center;
+}
+
+.footer-mid-text a {
+    font-weight: 900;
+}
+
+.footer-mid-text p {
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+#footer-bootom {
+    height: 100px;
+}
+
+.copyright p {
+    font-size: 15px;
+    padding-top: 15%;
+}
+
+.logo-footer img {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+@media only screen and (max-width:768px) {
+   .copyright{
+    display: none;
+   }
+}
